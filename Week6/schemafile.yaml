@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: cabdatafile
+file_name: Cab_Data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - transaction_id
+    - date_of_travel
+    - company
+    - city
+    - km_travelled
+    - price_charged
+    - cost_of_trip
